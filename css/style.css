@@ -59,7 +59,7 @@ Table of contents
 body{ font-family: 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased; font-size:13px; color:#626262; line-height:23px; letter-spacing: 0.02em }
 a{ color: #000; }
 a:hover{ color: #575757; }
-img { -webkit-backface-visibility: hidden; max-width:100%; height:auto; }
+img { -webkit-backface-visibility: hidden; max-width:100%; }
 video { background-size: cover; display: table-cell; vertical-align: middle; width: 100%; }
 ul{ margin: 0px; padding:0px; }
 input, textarea, select{ border: 1px solid #dfdfdf; letter-spacing: 1px; font-size: 11px;  padding: 8px 15px; width: 100%; margin: 0 0 20px 0; text-transform: uppercase; max-width: 100%; resize: none;}
