@@ -2200,3 +2200,8 @@ thead th.first { padding-left: 0 !important; }
     justify-content: center;
     align-items: center;
 }
+
+.icon {
+    padding: 5%;
+    margin: -30%;
+}
