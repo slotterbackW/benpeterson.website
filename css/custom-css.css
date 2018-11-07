@@ -36,5 +36,14 @@
 }
 
 .xmax-bg {
-  background-position: 0 -150px !important;
+  background-image: url("../images/xmax_background.JPG");
+  background-size: cover;
+  background-position: 0 -250px;
+  background-repeat: no-repeat;
+}
+
+.continuum-bg {
+  background-image: url("../images/continuumbackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
