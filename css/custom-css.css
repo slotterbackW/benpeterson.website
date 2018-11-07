@@ -5,3 +5,32 @@
 .project-image {
   height: 200px;
 }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulleted-list {
+  display: block;
+  list-style-type: disc;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.bulleted-list > li {
+  padding-bottom: 2rem;
+}
+
+.underline-link {
+  text-decoration: underline;
+}
+
+.underline-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
