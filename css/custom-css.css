@@ -34,3 +34,7 @@
   text-decoration: underline;
   color: blue;
 }
+
+.xmax-bg {
+  background-position: 0 -150px !important;
+}
