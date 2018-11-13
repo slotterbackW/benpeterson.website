@@ -72,13 +72,18 @@
           <div class="container">
               <div class="row">
                   <div class="col-md-12 col-sm-12 text-center animated fadeInUp">
+                    <div class="bg-white-light">
                       <div class="separator-line bg-yellow no-margin-top margin-four"></div>
                       <!-- page title -->
                       <h1 class="black-text">XMAX Project</h1>
                       <!-- end page title -->
                       <!-- page title tagline -->
-                      <span class="text-uppercase gray-text">Project Lead</span>
+                      <div><span class="text-uppercase black-text">Project Lead</span></div>
                       <!-- end title tagline -->
+                      <div class="project-highlight wow fadeInUp black-text" data-wow-duration="1200ms" style="display: flex;align-items: center;justify-content: center;">
+                        2016 - Present
+                      </div>
+                    </div>
                   </div>
               </div>
           </div>
@@ -88,20 +93,23 @@
       <!-- project highlight section -->
       <section class="no-padding">
           <div class="container">
-              <div class="row margin-ten">
-                  <div class="col-md-4 col-sm-4 text-center project-highlight wow fadeInUp xs-margin-bottom-eight" data-wow-duration="500ms"><span class="black-text">Project</span>XMAX</div>
-                  <div class="col-md-4 col-sm-4 text-center project-highlight wow fadeInUp xs-margin-bottom-eight" data-wow-duration="1000ms"><span class="black-text">Skills</span>
-                      <ul>
-                        <li>Human-centered Design</li>
-                        <li>Human Factors</li>
-                        <li>Mechanical Design</li>
-                        <li>Arduino</li>
-                        <li>Electronics</li>
-                        <li>Prototyping</li>
-                      </ul>
-                  </div>
-                  <div class="col-md-4 col-sm-4 text-center project-highlight wow fadeInUp" data-wow-duration="1200ms"><span class="black-text">Year</span>2016 - Present</div>
+            <div class="col-md-12 col-sm-12 text-center project-highlight wow fadeInUp xs-margin-bottom-eight project-box" data-wow-duration="500ms"><span class="black-text">Project</span>XMAX</div>
+            <div class="col-md-12 col-sm-12 text-center project-highlight wow fadeInUp xs-margin-bottom-eight project-box" data-wow-duration="1000ms"><span class="black-text">Skills</span>
+              <div class="col-md-6 col-sm-6 text-center project-highlight wow fadeInUp xs-margin-bottom-eight">
+                <ul>
+                  <li>Human-centered Design</li>
+                  <li>Human Factors</li>
+                  <li>Mechanical Design</li>
+                </ul>
               </div>
+              <div class="col-md-6 col-sm-6 text-center project-highlight wow fadeInUp xs-margin-bottom-eight">
+                <ul>
+                  <li>Arduino</li>
+                  <li>Electronics</li>
+                  <li>Prototyping</li>
+                </ul>
+              </div>
+            </div>
           </div>
       </section>
       <!-- end project highlight section -->
@@ -121,7 +129,7 @@
               <div class="row project-content">
                   <div class="col-md-7 col-sm-10 center-col text-center text-med">
                       <h6 class="wow fadeInUp"><strong class="black-text">The XMAX Project</strong></h6>
-                      <p class="wow fadeInUp">The inspiration for this project came from one of my friends, Dylan, who was the manager for the varsity men’s basketball team here at Northeastern. He would attend practices and games, and would hang out with another one of the team’s active attendants: Max. Max is an 18-year-old who loves sports and sits on the bench with the team at their home games. Max also has cerebral palsy and has extremely limited mobility in his arms and legs. This does not hold Max back in the slightest; however, there are many things that Max would love to do but is not able to due to his condition. One of those is playing XBOX. Dylan, a fellow mechanical engineering student and involved in the Enabling Engineering project, realized the potential to make this wish a reality. The XMAX Project was launched with the goal of creating a solution designed for Max to play XBOX.
+                      <p class="wow fadeInUp" style="text-align:justify;">The inspiration for this project came from one of my friends, Dylan, who was the manager for the varsity men’s basketball team at Northeastern. He would attend practices and games, and spend time with another one of the team’s active attendants, Max. Max is an 18-year-old who loves sports and sits on the bench with the team at their home games. Max also has cerebral palsy and has extremely limited mobility in his arms and legs. This does not hold Max back in the slightest; however, there are many things that Max would love to do but is not able to because of his condition. One of those is playing XBOX. Dylan, a fellow mechanical engineering student, realized the potential to make this wish a reality. The XMAX Project was launched with the goal of creating a solution designed for Max to play XBOX.
                       </p>
               </div>
           </div>
@@ -137,8 +145,8 @@
                   </div>
                   <div class="col-md-6 col-sm-12">
                       <ul class="bulleted-list">
-                        <li>Our first step was to learn about Max’s strengths, his mobility, and his expectations for this device. Through interviews with his father and physical therapist, we found that Max had the most mobility in his head, and his neck was by far his strongest muscle.</li>
-                        <li>By transforming the information collected in interviews into constraints, we developed a prototype designed around Max’s strengths. Four buttons were to sit around Max’s head, and enlarged analog sticks were fixed to the arms of his chair such that he could use his entire shoulder instead of articulating his thumbs.</li>
+                        <li>Our first step was to learn about Max’s strengths, mobility, and expectations for this device. Through interviews with his father and physical therapist, we found that Max had the most mobility in his head, and his neck was by far his strongest muscle.</li>
+                        <li>By transforming the information collected from interviews into constraints, we developed a prototype designed around Max’s strengths. Four buttons were to sit around Max’s head, and enlarged analog sticks were fixed to the arms of his chair such that he could use his entire shoulder instead of articulating his thumbs.</li>
                       </ul>
                   </div>
                   <!-- end content  -->
@@ -161,12 +169,12 @@
               <div class="row">
                   <!-- content  -->
                   <div class="col-md-6 col-sm-12 sm-margin-bottom-four">
-                      <img src="../images/controller_diagram.jpg" alt=""/>
+                      <img src="../images/controller_diagram.PNG" alt=""/>
                   </div>
                   <div class="col-md-6 col-sm-12">
                       <ul class="bulleted-list">
                         <li>The second generation XMAX controller was completed in the spring of 2018. It included a more robust aluminum frame, modular buttons with flexible linkages for adjusting their position around Max’s head, and a companion controller so that another person could help Max play if he got stuck. </li>
-                        <li>This improvement involved hard wiring the A, X, B, and Y buttons on the XBOX controller to an assistive “breakout” controller. Connector pins were used to wiring this “breakout” controller to the buttons on the XMAX device. Doing this allowed for another person to have full functionality of the XBOX controller to help Max if he needed.</li>
+                        <li>This improvement involved hard wiring the A, X, B, and Y buttons on the XBOX controller to the “breakout” companion controller. Connector pins were used to wire this companion controller to the buttons on the XMAX device. Doing this allows for another person to have full functionality of the XBOX controller if Max needs help.</li>
                       </ul>
                   </div>
                   <!-- end content  -->
@@ -201,6 +209,11 @@
           </div>
       </section>
       <!-- end content section -->
+
+      <video controls>
+        <source src="../images/xmax.mp4" type="video/mp4">
+      </video>
+
       <!-- related projects section -->
       <section class="work-3col gutter work-with-title wide wide-title related-projects xs-no-padding-bottom" id="related">
           <div class="container">
@@ -217,7 +230,7 @@
                               <!-- work item -->
                               <li>
                                       <figure>
-                                          <div class="gallery-img"><a href="../comingsoon.html"><img src="../images/whoopstrap.jpeg" alt=""></a></div>
+                                          <div class="gallery-img"><a href="./whoop.html"><img src="../images/whoopstrap.jpeg" alt=""></a></div>
                                           <figcaption>
                                               <h3><a href="openbench.html">Whoop</a></h3>
                                           </figcaption>
@@ -227,7 +240,7 @@
                                   <!-- work item -->
                                   <li>
                                           <figure>
-                                              <div class="gallery-img"><a href="./capstone.html"><img src="../images/capstone_logo.png" alt=""></a></div>
+                                              <div class="gallery-img"><a href="../comingsoon.html"><img src="../images/capstone_logo.png" alt=""></a></div>
                                               <figcaption>
                                                   <h3><a href="xmax.html">Capstone</a></h3>
                                               </figcaption>

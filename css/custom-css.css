@@ -15,7 +15,6 @@
 .bulleted-list {
   display: block;
   list-style-type: disc;
-  margin-top: 2rem;
   margin-bottom: 1rem;
   margin-left: 0;
   margin-right: 0;
@@ -42,8 +41,30 @@
   background-repeat: no-repeat;
 }
 
+.project-box {
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid lightgray;
+}
+
 .continuum-bg {
   background-image: url("../images/continuumbackground.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.whoop-bg {
+  background-image: url("../images/whoop_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 8rem 0 !important;
+}
+
+.bg-white-light {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5)
 }
