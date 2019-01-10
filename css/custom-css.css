@@ -41,6 +41,13 @@
   background-repeat: no-repeat;
 }
 
+.capstone-bg {
+  background-image: url("../images/stomach_bg.JPG");
+  background-size: cover;
+  padding: 250px 0;
+  background-repeat: no-repeat;
+}
+
 .project-box {
   margin: 2rem 0;
   padding: 2rem;
